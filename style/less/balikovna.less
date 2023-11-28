@@ -1,0 +1,189 @@
+html,
+body {
+	height: 100%;
+}
+
+/* CSS for the modal overlay */
+.modal-overlay-balikovna {
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+
+/* CSS for the modal box */
+.modal-box-balikovna {
+	z-index: 12;
+	top: -10%;
+	left:15%;
+	position: absolute;
+
+	width:70%;
+	height: 100%;
+	display: none;
+}
+
+#close-modal-balikovna-button {
+	border-radius: 10px;
+	border: 0 !important;
+	background: white !important;
+	font-weight: 900;
+	color: #004992 !important;
+	width: 56px;
+	height: 56px;
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	z-index: 2;
+
+
+	&:hover, &:focus{
+		background: #d40511 !important;
+
+		color:white !important;
+	}
+}
+.language-selector-select{
+	border-radius:10px !important;
+
+	&:hover,&:focus{
+		background: #d40511 !important;
+		color: white !important;
+	}
+
+
+
+}
+
+/* CSS for the modal overlay */
+.modal-overlay-napostu {
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+
+/* CSS for the modal box */
+.modal-box-napostu {
+	z-index: 12;
+	top: -10%;
+	left:15%;
+	position: absolute;
+
+	width:70%;
+	height: 100%;
+	display: none;
+}
+
+#close-modal-napostu-button {
+	border-radius: 10px;
+	border: 0 !important;
+	background: white !important;
+	font-weight: 900;
+	color: #004992 !important;
+	width: 56px;
+	height: 56px;
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	z-index: 2;
+
+
+	&:hover, &:focus{
+		background: #d40511 !important;
+
+		color:white !important;
+	}
+}
+.language-selector-select{
+	border-radius:10px !important;
+
+	&:hover,&:focus{
+		background: #d40511 !important;
+		color: white !important;
+	}
+
+
+
+}
+
+.smap .zoom{
+	top:90% !important;
+
+}
+
+s
+
+
+.control-panel__scroll-panel-controls-wrapper{
+	display:none !important;
+}
+
+
+.wraper{
+	z-index: 100;
+	min-width: 383px;
+	bottom: 0;
+	position: absolute;
+}
+
+@media (max-width: 991px){
+	.wraper{
+		min-width:320px;
+	}
+
+	#close-modal-balikovna-button{
+
+
+		height: 40px;
+
+	}
+
+}
+
+@media (max-width: 767px){
+	.modal-box-balikovna{
+		top:7vh;
+		width:90%;
+		height:73vh;
+		left:5%;
+		position:fixed;
+	}
+
+	.wraper{
+		min-width:100%;
+		top: 70vh;
+	}
+
+
+	#loader{
+		color: rgba(0,0,0,0) !important;
+
+
+
+	}
+
+
+	#close-modal-balikovna-button{
+		border-radius: 10px;
+		border: 0 !important;
+		background: white !important;
+		font-weight: 900;
+		color: #004992 !important;
+		width: 56px;
+		height: 31px;
+		position: absolute;
+		top: 0;
+		right: 10px;
+		z-index:3;
+	}
+
+}
